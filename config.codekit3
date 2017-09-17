@@ -91,6 +91,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/gpa.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/gpa.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/instafeed.min.js": {
 		"ft": 64,
 		"ma": 0,
