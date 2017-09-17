@@ -84,21 +84,22 @@
  </script>
 </div>
 -->			
-				<form id="frmContact" action="#" method="post">
+				<form id="frmContact" action="php/contactrequest.php" method="post" enctype="application/x-www-form-urlencoded">
+					<input type="hidden" name="required" value="frmEMail,frmFirstName,frmLastName">
 					<legend>Richiedi contatto</legend>
 					<ul class="frmList">
-					<li><label for="frmFirstName">Nome</label><input id="frmFirstName" type="text" placeholder="nome"></li>
-					<li><label for="frmLastName">Cognome</label><input id="frmLastName" type="text" placeholder="cognome"></li>
-					<li><label for="frmCompanyName">Ragione Sociale</label><input id="frmCompanyName" type="text" placeholder="ragione sociale"></li>
-					<li><label for="frmAddress">Indirizzo</label><input id="frmAddress" type="text" placeholder="indirizzo"></li>
-					<li><label for="frmZipCode">CAP</label><input id="frmZipCode" type="text" placeholder="cap"></li>
-					<li><label for="frmCity">Città</label><input id="frmCity" type="text" placeholder="città"></li>
-					<li><label for="frmDistrict">Provincia</label><input id="frmDistrict" type="text" placeholder="provincia"></li>
-					<li><label for="frmCountry">Nazione</label><input id="frmCountry" type="text" placeholder="nazione"></li>
-					<li><label for="frmPhone">Telefono</label><input id="frmPhone" type="tel" placeholder="telefono"></li>
-					<li><label for="frmMobile">Indirizzo</label><input id="frmMobile" type="tel" placeholder="cellulare"></li>
-					<li><label for="frmEMail">E-Mail</label><input id="frmEMail" type="email" placeholder="e-mail"></li>
-					<li><label for="frmWebSite">Sito Web</label><input id="frmWebSite" type="url" placeholder="sito web"></li>
+					<li><label for="frmFirstName">Nome</label><input id="frmFirstName" name="frmFirstName" type="text" placeholder="nome"></li>
+					<li><label for="frmLastName">Cognome</label><input id="frmLastName" name="frmLastName" type="text" placeholder="cognome"></li>
+					<li><label for="frmCompanyName">Ragione Sociale</label><input id="frmCompanyName" name="frmCompanyName" type="text" placeholder="ragione sociale"></li>
+					<li><label for="frmAddress">Indirizzo</label><input id="frmAddress" name="frmAddress" type="text" placeholder="indirizzo"></li>
+					<li><label for="frmZipCode">CAP</label><input id="frmZipCode" name="frmZipCode" type="text" placeholder="cap"></li>
+					<li><label for="frmCity">Città</label><input id="frmCity" name="frmCity" type="text" placeholder="città"></li>
+					<li><label for="frmDistrict">Provincia</label><input id="frmDistrict" name="frmDistrict" type="text" placeholder="provincia"></li>
+					<li><label for="frmCountry">Nazione</label><input id="frmCountry" name="frmCountry" type="text" placeholder="nazione"></li>
+					<li><label for="frmPhone">Telefono</label><input id="frmPhone" name="frmPhone" type="tel" placeholder="telefono"></li>
+					<li><label for="frmMobile">Indirizzo</label><input id="frmMobile" name="frmMobile" type="tel" placeholder="cellulare"></li>
+					<li><label for="frmEMail">E-Mail</label><input id="frmEMail" name="frmEMail"  type="email" placeholder="e-mail"></li>
+					<li><label for="frmWebSite">Sito Web</label><input id="frmWebSite" name="frmWebSite" type="url" placeholder="sito web"></li>
 					</ul>
 					<div class="text-align-right">
 						<input type="submit" value="Invia">
