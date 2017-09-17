@@ -178,8 +178,10 @@
 .fa-inverse {
   color: #ffffff;
 }
+
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+
 .fa-glass:before {
   content: "\f000";
 }
@@ -557,9 +559,14 @@
 .fa-twitter-square:before {
   content: "\f081";
 }
+
+
+/* ANTONIO */
 .fa-facebook-square:before {
   content: "\f082";
 }
+
+
 .fa-camera-retro:before {
   content: "\f083";
 }
@@ -801,9 +808,14 @@
 .fa-envelope:before {
   content: "\f0e0";
 }
+
+/* ANTONIO */
 .fa-linkedin:before {
   content: "\f0e1";
 }
+
+
+
 .fa-rotate-left:before,
 .fa-undo:before {
   content: "\f0e2";
@@ -1215,9 +1227,17 @@
 .fa-stack-overflow:before {
   content: "\f16c";
 }
+
+
+/* ANTONIO */
 .fa-instagram:before {
   content: "\f16d";
 }
+
+
+
+
+
 .fa-flickr:before {
   content: "\f16e";
 }
@@ -1784,12 +1804,19 @@
 .fa-genderless:before {
   content: "\f22d";
 }
+
+
+/* ANTONIO */
 .fa-facebook-official:before {
   content: "\f230";
 }
+
+/* ANTONIO */
 .fa-pinterest-p:before {
   content: "\f231";
 }
+
+
 .fa-whatsapp:before {
   content: "\f232";
 }
@@ -2316,6 +2343,8 @@
 .fa-meetup:before {
   content: "\f2e0";
 }
+
+
 .sr-only {
   position: absolute;
   width: 1px;

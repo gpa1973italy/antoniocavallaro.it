@@ -5,7 +5,7 @@ function siteInitialize(){
 		  
 		  
 			$( window ).resize(function() {
-				if (window.innerWidth <= 827) {
+				if (window.innerWidth <= 827 || $("body").width() <= 827) {
 					$("nav>ul>li:not(:first-of-type)").each(function(){
 						
 						$(this).hide();
@@ -36,7 +36,7 @@ function siteInitialize(){
 			$("#mnu").on("click", function(event){
 			
 				event.preventDefault();
-				if (window.innerWidth <= 827) {
+				if (window.innerWidth <= 827 || $("body").width() <= 827) {
 					$("nav>ul>li:not(:first-of-type)").each(function(){
 						
 						$(this).toggle();
@@ -69,7 +69,7 @@ function siteInitialize(){
 			                // Add hash (#) to URL when done scrolling (default click behavior)
 			                window.location.hash = hash;
 			       
-							if (window.innerWidth <= 827) {
+							if (window.innerWidth <= 827 || $("body").width() <= 827) {
 							   $("nav>ul>li:not(:first-of-type)").each(function(){
 									
 									$(this).hide();
